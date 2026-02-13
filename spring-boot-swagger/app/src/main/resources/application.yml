@@ -1,0 +1,9 @@
+api:
+  base-path: /
+
+management:
+  endpoints:
+    web:
+      base-path: /manage
+      exposure:
+        include: mappings,health,info
