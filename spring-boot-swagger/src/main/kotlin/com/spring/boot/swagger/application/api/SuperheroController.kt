@@ -7,10 +7,8 @@ import com.spring.boot.swagger.domain.ports.`in`.ListSuperheroesUseCasePort
 import com.spring.boot.swagger.generated.api.HeroesApiDelegate
 import com.spring.boot.swagger.generated.model.Hero
 import org.springframework.http.ResponseEntity
-import org.springframework.stereotype.Service
-import java.util.UUID
+import java.util.*
 
-@Service
 class SuperheroController(
     private val listUseCase: ListSuperheroesUseCasePort,
     private val getUseCase: GetSuperheroUseCasePort

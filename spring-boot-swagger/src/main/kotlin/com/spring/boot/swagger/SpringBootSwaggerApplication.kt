@@ -5,10 +5,10 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication(scanBasePackages = [
     "com.spring.boot.swagger",
-    "com.generated"
+    "com.spring.boot.swagger.generated"
 ])
 open class SpringBootSwaggerApplication
 
 fun main(args: Array<String>) {
-    runApplication<com.spring.boot.swagger.SpringBootSwaggerApplication>(*args)
+    runApplication<SpringBootSwaggerApplication>(*args)
 }
